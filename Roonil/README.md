@@ -25,7 +25,7 @@ The output should return the string that contains the proper mail address after 
 
 # Constraints:
 - Each emails contains exactly one '@' character.
-- Domain names must contain at least one character before ``".com"``, ``".net"``, ``".org"`` or ``".edu"`` suffix.
+- Domain names must contain at least one character before ``.com``, ``.net``, ``.org`` or ``.edu`` suffix.
 - Mails should only consist of lowercase characters. The output should be "``Invalid``" otherwise.
 
 # Sample:
