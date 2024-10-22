@@ -1,0 +1,3 @@
+Enter the number of elements (n): 4
+Enter 5 numbers (1 to 4) with one number repeated:
+1 2 2 3 4

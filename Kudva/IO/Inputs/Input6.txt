@@ -1,0 +1,3 @@
+Enter the number of elements (n): 2
+Enter 3 numbers (1 to 2) with one number repeated:
+1 1 2

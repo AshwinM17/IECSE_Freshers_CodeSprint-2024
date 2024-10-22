@@ -1,0 +1,3 @@
+Enter the number of elements (n): 5
+Enter 6 numbers (1 to 5) with one number repeated:
+1 2 3 4 5 3
