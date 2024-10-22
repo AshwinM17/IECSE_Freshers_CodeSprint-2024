@@ -14,23 +14,24 @@ The output should return the string that contains the largest number possible.<b
 
 # Constraints:
 -`` 1 <= nums.length <= 100``
+
 -``0 <= nums[i] <= 109``
 
 # Sample:
 ## Example 1:
 
-Input:`` nums = [10,2]``
-Output:`` "210"``
+Input:``nums = [10,2]``
+Output:``"210"``
 
 ## Example 2:
 
 Input: ``nums = [3,30,34,5,9]``
-Output:`` "9534330"``
+Output:``"9534330"``
  
 
 # Link:
 <h3>
-- <a href="[https://leetcode.com/problems/unique-email-addresses/description/](https://leetcode.com/problems/largest-number/description/?envType=problem-list-v2&envId=sorting&difficulty=MEDIUM)">Largest Number</a><br>
+- <a href="https://leetcode.com/problems/unique-email-addresses/description/](https://leetcode.com/problems/largest-number/description/?envType=problem-list-v2&envId=sorting&difficulty=MEDIUM">Largest Number</a><br>
 
 </h3>
 
