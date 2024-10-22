@@ -1,5 +1,5 @@
 # Statement:
-You remain as the last human present in a base on an apocolytic battlefield. While scrolling through the files of the Gestalt Project, you notice some random gibberish with keys attached to them. You quickly realize that these might be the key to save yourself and get reinforcements. <br>
+You remain as the last human present in a base on an apocalyptic battlefield. While scrolling through the files of the Gestalt Project, you notice some random gibberish with keys attached to them. You quickly realize that these might be the key to save yourself and get reinforcements. <br>
 You have to try and write a code in such a way that the gibberish can be translated into mail addresses using the key that follow the following pattern:
 - Any valid mail address should have a local name and a domain name, that is seperated by a ``@``
 - There are can be periods(``.``) in between the local name, but that rule does not apply to the domain name.<br>
