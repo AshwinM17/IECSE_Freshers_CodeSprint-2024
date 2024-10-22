@@ -22,7 +22,6 @@ The input should consist of a string of characters, along with their attached ke
 
 # Output Format:
 The output should return the string that contains the proper mail address after it has been deciphered and all the conditions have been checked for a proper mail address.<br>
-<i>For the above examples, the sample outputs would be:</i><br>
 
 # Constraints:
 - Each emails contains exactly one '@' character.
