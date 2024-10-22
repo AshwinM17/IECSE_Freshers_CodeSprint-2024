@@ -1,66 +1,44 @@
-To sort a given array of strings into lexicographically increasing order or into an order in which the string with the lowest length appears first, a sorting function with a flag indicating the type of comparison strategy can be written. The disadvantage with doing so is having to rewrite the function for every new comparison strategy.
+In the town of Digitville, there was a list of numbers called nums containing integers from 0 to n - 1. Each number was supposed to appear exactly once in the list, however, two mischievous numbers sneaked in an additional time, making the list longer than usual.
 
-A better implementation would be to write a sorting function that accepts a pointer to the function that compares each pair of strings. Doing this will mean only passing a pointer to the sorting function with every new comparison strategy.
+As the town detective, your task is to find these two sneaky numbers. Return an array of size two containing the two numbers (in any order), so peace can return to Digitville.
 
-Given an array of strings, you need to implement a string_sort function which sorts the strings according to a comparison function, i.e, you need to implement the function :
+ 
 
-void string_sort(const char **arr,const int cnt, int (*cmp_func)(const char* a, const char* b)){
-    
-}
-The arguments passed to this function are:
+Example 1:
 
-an array of strings : arr
-length of string array: count
-pointer to the string comparison function: cmp_func
-You also need to implement the following four string comparison functions:
+Input: nums = [0,1,1,0]
 
- int lexicographical_sort(char* , char* ): to sort the strings in lexicographically non-decreasing order.
+Output: [0,1]
 
- int lexicographical_sort_reverse( to sort the strings in lexicographically non-increasing order.
+Explanation:
 
- to sort the strings in non-decreasing order of the number of distinct characters present in them. If two strings have the same number of distinct characters present in them, then the lexicographically smaller string should appear first.
+The numbers 0 and 1 each appear twice in the array.
 
- to sort the strings in non-decreasing order of their lengths. If two strings have the same length, then the lexicographically smaller string should appear first.
+Example 2:
 
-Input Format
+Input: nums = [0,3,2,1,3,2]
 
-You just need to complete the function string\_sort and implement the four string comparison functions.
+Output: [2,3]
 
-Constraints
+Explanation:
 
- No. of Strings 
- Total Length of all the strings 
-You have to write your own sorting function and you cannot use the inbuilt  function
-The strings consists of lower-case English Alphabets only.
-Output Format
+The numbers 2 and 3 each appear twice in the array.
 
-The locked code-stub will check the logic of your code. The output consists of the strings sorted according to the four comparsion functions in the order mentioned in the problem statement.
+Example 3:
 
-Sample Input 0
+Input: nums = [7,1,5,4,3,4,6,0,9,5,8,2]
 
-4
-wkue
-qoi
-sbv
-fekls
-Sample Output 0
+Output: [4,5]
 
-fekls
-qoi
-sbv
-wkue
+Explanation:
 
-wkue
-sbv
-qoi
-fekls
+The numbers 4 and 5 each appear twice in the array.
 
-qoi
-sbv
-wkue
-fekls
+ 
 
-qoi
-sbv
-wkue
-fekls
+Constraints:
+
+2 <= n <= 100
+nums.length == n + 2
+0 <= nums[i] < n
+The input is generated such that nums contains exactly two repeated elements.
