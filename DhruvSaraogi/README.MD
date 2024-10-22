@@ -42,3 +42,5 @@ Constraints:
 nums.length == n + 2
 0 <= nums[i] < n
 The input is generated such that nums contains exactly two repeated elements.
+
+https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/description/
