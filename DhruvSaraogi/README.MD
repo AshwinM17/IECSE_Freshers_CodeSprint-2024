@@ -14,6 +14,7 @@ As the museum's detective, your task is to find these duplicate pieces using onl
 
 - Return an array containing the titles or descriptions of the duplicate pieces, based solely on the information available in the records. 
 - These pieces, likely due to errors in acquisition or labeling, are identical and should not be part of the museum's collection.
+- If no duplicates are found display a message "No duplicates found."
 
 ## Input Format:
 -------
