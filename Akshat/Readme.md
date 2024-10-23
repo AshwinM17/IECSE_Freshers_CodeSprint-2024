@@ -22,7 +22,7 @@ Output Format:
 Return the total number of times the scroll of jutsu level s is teleported during the entire operation.
 
 Constraints:
-1 <= n <= 10^4,
+1 <= n <= 31,
 1 <= s <= n
 
 Sample Input:
