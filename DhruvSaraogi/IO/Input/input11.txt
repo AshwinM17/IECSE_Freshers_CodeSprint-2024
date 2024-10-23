@@ -1,1 +1,2 @@
-
+4
+['René Magritte','René Magritte','Edgar Degas','Edgar Degas'],['The Son of Man','The Lovers','The Ballet Class','The Ballet Class'],[1964,1928,1874,1874]
