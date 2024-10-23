@@ -37,6 +37,7 @@ int main() {
     char t[MR][TL];
     int y[MR];
     int k=0;
+    int l=0;
 
     
     for (int i = 0; i < num; i++) {
@@ -56,11 +57,20 @@ int main() {
     
     findDuplicates(arr, t, y, num, r,k);
 
-    
     if (strlen(r[0]) > 0) {
-       for(int i=0;i<(sizeof(r)/sizeof(r[0]));i++){
-           printf("%s",r[i]);
-       }
+        l=sizeof(r)/sizeof(r[0]);
+        for(int i=0;i<l;i++){
+            if(i==0){
+               printf("['%s',",r[i]);
+            }
+            else if(i==l-1){
+               printf("'%s']",r[i]);
+            }
+            else{
+               printf("'%s',",r[i]);
+            }
+           
+        }
     } else {
         printf("\nNo duplicates found.\n");
     }
