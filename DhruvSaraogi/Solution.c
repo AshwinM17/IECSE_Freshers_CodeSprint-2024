@@ -1,70 +1,67 @@
 #include <stdio.h>
 #include <string.h>
 
-#define MAX_RECORDS 100
-#define TITLE_LENGTH 100
-#define ARTIST_LENGTH 100
+#define MR 100
+#define TL 100
+#define AL 100
 
 // Function to check if two records are identical
-int areIdentical(char artist1[], char title1[], int year1, char artist2[], char title2[], int year2) {
-    return strcmp(artist1, artist2) == 0 && strcmp(title1, title2) == 0 && year1 == year2;
+int Identical(char arr1[], char t1[], int y1, char arr2[], char t2[], int y2) {
+    return (strcmp(arr1, arr2) == 0 && strcmp(t1, t2) == 0 && y1 == y2);
 }
 
 // Function to find the duplicate artwork records
-void findDuplicates(char artists[][ARTIST_LENGTH], char titles[][TITLE_LENGTH], int years[], int size, char result[][TITLE_LENGTH]) {
+void findDuplicates(char arr[][AL], char t[][TL], int y[], int size, char r[size][TL],int k) {
     int found = 0;
     
     // Compare each record with every other record
     for (int i = 0; i < size; i++) {
         for (int j = i + 1; j < size; j++) {
-            if (areIdentical(artists[i], titles[i], years[i], artists[j], titles[j], years[j])) {
+            if (Identical(arr[i], t[i], y[i], arr[j], t[j], y[j])) {
                 // Store the duplicate titles in the result array
-                strcpy(result[0], titles[i]);
-                strcpy(result[1], titles[j]);
-                found = 1;
-                break;
+                strcpy(r[k++], t[i]);
+                strcpy(r[k++], t[j]);
             }
         }
-        if (found) {
-            break;
-        }
     }
+    
 }
 
 int main() {
-    int numRecords;
+    int num;
 
     // Get the number of records from the user
     printf("Enter the number of records: ");
-    scanf("%d", &numRecords);
+    scanf("%d", &num);
 
-    char artists[MAX_RECORDS][ARTIST_LENGTH];
-    char titles[MAX_RECORDS][TITLE_LENGTH];
-    int years[MAX_RECORDS];
+    char arr[MR][AL];
+    char t[MR][TL];
+    int y[MR];
+    int k=0;
 
     // Read the records from the user
-    for (int i = 0; i < numRecords; i++) {
+    for (int i = 0; i < num; i++) {
         printf("\nEnter details for record %d\n", i + 1);
         
         printf("Artist: ");
-        scanf(" %[^\n]%*c", artists[i]);  // Read the artist's name
+        scanf("%s", &arr[i]);  // Corrected: No & for array
         
-        printf("Title: ");
-        scanf(" %[^\n]%*c", titles[i]);  // Read the title
+        printf("\nTitle: ");
+        scanf("%s", &t[i]);  // Corrected: No & for array
         
-        printf("Year: ");
-        scanf("%d", &years[i]);  // Read the year of creation
+        printf("\nYear: ");
+        scanf("%d", &y[i]);  // Read the year of creation
     }
 
-    char result[2][TITLE_LENGTH];  // To store the titles of the duplicate records
+    char r[num][TL];  // Initialize result with empty strings
 
     // Find the duplicates
-    findDuplicates(artists, titles, years, numRecords, result);
+    findDuplicates(arr, t, y, num, r,k);
 
     // Output the result
-    if (strlen(result[0]) > 0) {
-       for(int i=0;i<(sizeof(result) / sizeof(result[0]));i++){
-           printf("%d",result[i]);
+    if (strlen(r[0]) > 0) {
+       for(int i=0;i<(sizeof(r)/sizeof(r[0]));i++){
+           printf("%s",r[i]);
        }
     } else {
         printf("\nNo duplicates found.\n");
@@ -72,4 +69,3 @@ int main() {
 
     return 0;
 }
-
