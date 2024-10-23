@@ -1,8 +1,8 @@
 Statement
 
-As part of an internship at a struggling supermarket, you are tasked with an innovative marketing challenge. With the store nearing closure, you brainstorm creative ways to attract customers. One promising idea is to hold a lottery giveaway, featuring bundles of items that are nearing their expiration dates. Your goal is to calculate the total cost of all possible combinations of these items to highlight the potential value customers could win.
+You are tasked with a marketing challenge at a struggling supermarket. The store is near closure, and you need to attract more customers. One idea is to hold a lottery giveaway featuring items nearing their expiration dates. Your goal is to calculate the total value customers could win. How would you approach this task?
 
-Imagine the excitement as customers flock to the store, enticed by the chance to win these valuable bundles. To prepare for the promotion, you need to determine the total sum of the costs for every possible combination of the giveaway items.
+Imagine the excitement as customers flock to the store, enticed by the chance to win these valuable bundles. To prepare for the promotion, you need to ensure that the store's already ruined finances are not ruuined further. Will you be able to save the store, or put the final nail in the coffin of it
 Examples
 
 Input:
