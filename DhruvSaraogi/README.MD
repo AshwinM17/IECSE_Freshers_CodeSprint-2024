@@ -32,12 +32,12 @@ As the museum's detective, your task is to find these duplicate pieces using onl
 ```
 Input 1:
 
-`4`
-`['Pablo Picasso','Edvard Munch','Edvard Munch','Pablo Picasso'],['Night Watch','The Scream','The Scream','Night Watch'],[1937,1893,1893,1642]`
+4
+['Pablo Picasso','Edvard Munch','Edvard Munch','Pablo Picasso'],['Night Watch','The Scream','The Scream','Night Watch'],[1937,1893,1893,1642]
 
 Output 1:
 
-`['The Scream','The Scream']`
+['The Scream','The Scream']
 
 ```
 **Explanation for example 1:**
@@ -49,12 +49,12 @@ Output 1:
 
 Input 2:
 
-`4`
-`['Michelangelo','Leonardo da Vinci','Leonardo da Vinci','Michelangelo'],['David','Last Supper','Last Supper','David'],[1501,1495,1495,1501]`
+4
+['Michelangelo','Leonardo da Vinci','Leonardo da Vinci','Michelangelo'],['David','Last Supper','Last Supper','David'],[1501,1495,1495,1501]
 
 Output 2:
 
-`['Last Supper','Last Supper','David','David']`
+['Last Supper','Last Supper','David','David']
 
 ```
 
@@ -63,12 +63,12 @@ Output 2:
 
 Input 3:
 
-`4`
-`['Salvador Dalí','Johannes Vermeer','Johannes Vermeer','Jackson Pollock'],['The Persistence of Memory,' Girl with a Pearl Earring', 'Girl with a Pearl Earring','Number 1, 1950 (Lavender Mist)'],[1931,1665,1665,1950]`
+4
+['Salvador Dalí','Johannes Vermeer','Johannes Vermeer','Jackson Pollock'],['The Persistence of Memory,' Girl with a Pearl Earring', 'Girl with a Pearl Earring','Number 1, 1950 (Lavender Mist)'],[1931,1665,1665,1950]
 
 Output 3:
 
-`['Girl with a Pearl Earring','Girl with a Pearl Earring']`
+['Girl with a Pearl Earring','Girl with a Pearl Earring']
 
 ```
 
