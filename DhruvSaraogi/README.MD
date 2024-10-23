@@ -36,6 +36,8 @@ Output 1:
 `['The Scream','The Scream']`
 
 ```
+*Example 2:*
+```
 
 Input 2:
 
@@ -45,6 +47,11 @@ Output 2:
 
 `['Last Supper','Last Supper','David','David']`
 
+```
+
+*Example 3:*
+```
+
 Input 3:
 
 `['Salvador Dalí','Johannes Vermeer','Johannes Vermeer','Jackson Pollock'],['The Persistence of Memory,' Girl with a Pearl Earring', 'Girl with a Pearl Earring','Number 1, 1950 (Lavender Mist)'],[1931,1665,1665,1950]`
@@ -52,6 +59,8 @@ Input 3:
 Output 3:
 
 `['Girl with a Pearl Earring','Girl with a Pearl Earring']`
+
+```
 
 ## Constraints:
 
