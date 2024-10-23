@@ -17,7 +17,8 @@ As the museum's detective, your task is to find these duplicate pieces using onl
 
 ## Input Format:
 -------
-- 3 1D Array of Strings of name of artist,title of their painting and year they were created. 
+- First line is the number of creations present
+- In the second line there are 3 1D Array of Strings of name of artist,title of their painting and year they were created. 
 - Remember all three have to match for it to be considered as a duplicate.
 
 ## Output Format:
@@ -31,6 +32,7 @@ As the museum's detective, your task is to find these duplicate pieces using onl
 ```
 Input 1:
 
+`4`
 `['Pablo Picasso','Edvard Munch','Edvard Munch','Pablo Picasso'],['Night Watch','The Scream','The Scream','Night Watch'],[1937,1893,1893,1642]`
 
 Output 1:
@@ -47,6 +49,7 @@ Output 1:
 
 Input 2:
 
+`4`
 `['Michelangelo','Leonardo da Vinci','Leonardo da Vinci','Michelangelo'],['David','Last Supper','Last Supper','David'],[1501,1495,1495,1501]`
 
 Output 2:
@@ -60,6 +63,7 @@ Output 2:
 
 Input 3:
 
+`4`
 `['Salvador Dalí','Johannes Vermeer','Johannes Vermeer','Jackson Pollock'],['The Persistence of Memory,' Girl with a Pearl Earring', 'Girl with a Pearl Earring','Number 1, 1950 (Lavender Mist)'],[1931,1665,1665,1950]`
 
 Output 3:
