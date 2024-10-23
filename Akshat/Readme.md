@@ -6,7 +6,7 @@ To assist you, three elite ninjas—Kakashi, Shikamaru, and Sakura—will use th
 Sealing Room, and
 Secret Vault (the final destination for the scrolls).
 
-Rules of Engagement
+Rules of Engagement-
 Teleportation Capability: Each ninja can teleport the scroll that is currently on top of the stack from their room to another room. They cannot teleport any scroll that is not on top.
 
 Chakra Safety Protocol: A scroll containing a stronger jutsu (higher danger level) must never be placed on top of a scroll with a weaker jutsu. Violating this rule will result in the destruction of the weaker scroll.
