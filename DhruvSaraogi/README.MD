@@ -26,7 +26,8 @@ As the museum's detective, your task is to find these duplicate pieces using onl
 
 ### Examples
 *Example 1:*
-
+```
+Input 1:
 
 `['Pablo Picasso','Edvard Munch','Edvard Munch','Pablo Picasso'],['Night Watch','The Scream','The Scream','Night Watch'],[1937,1893,1893,1642]`
 
@@ -34,6 +35,7 @@ Output 1:
 
 `['The Scream','The Scream']`
 
+```
 
 Input 2:
 
