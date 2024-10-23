@@ -36,7 +36,8 @@ Output 1:
 `['The Scream','The Scream']`
 
 ```
-***Explanation for example 1:***
+**Explanation for example 1:**
+
 -  the two "The Scream" pieces are identical based on the artist, title, and year. Therefore, they are considered duplicates.
 
 *Example 2:*
