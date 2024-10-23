@@ -2,9 +2,7 @@ Problem Statement: Strategic Relocation of Jutsu Scrolls
 In the hidden village of Konoha, the Hokage has tasked you with the critical mission of relocating powerful ancient jutsu scrolls from the Scroll Storage Room to a Secret Vault.
 The scrolls are stacked in the Scroll Storage Room, with the weakest jutsu scroll on top and the most dangerous scroll at the bottom.
 
-To assist you, three elite ninjas—Kakashi, Shikamaru, and Sakura—will use their teleportation jutsu to transfer the scrolls between the following rooms:
-
-Scroll Storage Room (where the scrolls are initially stacked),
+To assist you, three elite ninjas—Kakashi, Shikamaru, and Sakura—will use their teleportation jutsu to transfer the scrolls between the following rooms: Scroll Storage Room (where the scrolls are initially stacked),
 Sealing Room, and
 Secret Vault (the final destination for the scrolls).
 Rules of Engagement:
