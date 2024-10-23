@@ -18,32 +18,33 @@ As the museum's detective, your task is to find these duplicate pieces using onl
 A single 1D array of strings of the duplicated titles
 
 Example Input 1:
-Artists:
+
 
 Pablo Picasso
 Edvard Munch
 Edvard Munch
 Rembrandt van Rijn
-Titles:
+
 
 Guernica
 The Scream
 The Scream
 Night Watch
-Years:
+
 
 1937
 1893
 1893
 1642
+
 Example Input 2:
-Artists:
+
 
 Michelangelo
 Leonardo da Vinci
 Leonardo da Vinci
-Raphael
-Titles:
+Michelangelo
+
 
 David
 Last Supper
@@ -55,20 +56,11 @@ Years:
 1495
 1498
 1509
-Example Input 3:
-Artists:
 
-Salvador Dalí
-Johannes Vermeer
-Johannes Vermeer
-Jackson Pollock
-Titles:
+### Example Input 3:
 
-The Persistence of Memory
-Girl with a Pearl Earring
-Girl with a Pearl Earring
-Number 1, 1950 (Lavender Mist)
-Years:
+['Salvador Dalí','Johannes Vermeer','Johannes Vermeer','Jackson Pollock']['The Persistence of Memory,' Girl with a Pearl Earring', 'Girl with a Pearl Earring','Number 1, 1950 (Lavender Mist)']
+
 
 1931
 1665
