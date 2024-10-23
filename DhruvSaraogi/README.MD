@@ -75,7 +75,8 @@ Output 3:
 `0 <= nums[i] < n`
 
 ## Link
-https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/description/
+- <a href="https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/description/">Digitville</a><br>
+
 
 ## Edited by
 Dhruv Saraogi
