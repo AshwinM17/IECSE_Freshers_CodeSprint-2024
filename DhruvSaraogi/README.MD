@@ -16,37 +16,23 @@ As the museum's detective, your task is to find these duplicate pieces using onl
 - These pieces, likely due to errors in acquisition or labeling, are identical and should not be part of the museum's collection.
 
 ## Input Format:
-3 1D Array of Strings of name of artist,title of their painting and year they painted. Remember all three have to match for it to be considered as a duplicate.
+-------
+- 3 1D Array of Strings of name of artist,title of their painting and year they were created. 
+- Remember all three have to match for it to be considered as a duplicate.
 
 ## Output Format:
-A single 1D array of strings of the duplicated titles
+-----
+- A single 1D array of strings of the duplicated titles
 
-Example Input 1:
+### Example Input 1:
 
-
-Pablo Picasso
-Edvard Munch
-Edvard Munch
-Rembrandt van Rijn
-
-
-Guernica
-The Scream
-The Scream
-Night Watch
-
-
-1937
-1893
-1893
-1642
+`['Pablo Picasso','Edvard Munch','Edvard Munch','Pablo Picasso'],['Night Watch','The Scream','The Scream','Night Watch'],[1937,1893,1893,1642]`
 
 ### Example Output 1:
 
 `['The Scream','The Scream']`
 
-Example Input 2:
-
+### Example Input 2:
 
 `['Michelangelo','Leonardo da Vinci','Leonardo da Vinci','Michelangelo'],['David','Last Supper','Last Supper','David'],[1501,1495,1495,1501]`
 
