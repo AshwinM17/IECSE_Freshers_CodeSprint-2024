@@ -2,38 +2,37 @@
 #include <stdlib.h>
 #include <math.h>
 
-void append(int arr[], int n, int subset[], int subsetSize, int nextIndex, int matrix[][100], int* row) {
-    if (nextIndex == n) {
-        for (int i = 0; i < subsetSize; i++) {
-            matrix[*row][i] = subset[i];
-        }
-        (*row)++;
-        return;
+void append(long arr[], int n, long subset[], int subsize, int index, long matrix[][100], int *row) {
+    if (index==n){
+    	for (int i=0;i<subsize;i++){
+    		matrix[*row][i]=subset[i];
+    	}
+    	(*row)++;
+    	return;
     }
+    subset[subsize]=arr[index];
 
-    subset[subsetSize] = arr[nextIndex];
-    append(arr, n, subset, subsetSize + 1, nextIndex + 1, matrix, row);
-
-    append(arr, n, subset, subsetSize, nextIndex + 1, matrix, row);
+    append(arr,n,subset,subsize+1,index+1,matrix,row);
+    append(arr,n,subset,subsize,index+1,matrix,row);
 }
 
-void initialise(int arr[], int n, int matrix[][100]) {
-    int subset[n];
+void initialise(long arr[], int n, long matrix[][100]) {
+    long subset[n];
     int row = 0; 
     append(arr, n, subset, 0, 0, matrix, &row);
 }
 
 int main() {
-    int arr[] = {1, 2, 3}; 
+    long arr[] = {0,100,2000,3,5,4,6,0,100000,2500000,300}; 
     int n = sizeof(arr) / sizeof(arr[0]); 
     int product=1;
     for (int i=0;i<n;i++){
     	product*=2;
     }
-    int sum=0;
+    long sum=0;
     int length=product; 
     int breadth = n; 
-    int matrix[length][100]; 
+    long matrix[length][100]; 
 
     for (int i = 0; i < length; i++) {
         for (int j = 0; j < breadth; j++) {
@@ -49,6 +48,6 @@ int main() {
     	}
     }
 
-    printf("%d\n",sum);
+    printf("%ld\n",sum);
     return 0;
 }
