@@ -48,22 +48,7 @@ Night Watch
 Example Input 2:
 
 
-Michelangelo
-Leonardo da Vinci
-Leonardo da Vinci
-Michelangelo
-
-
-David
-Last Supper
-Last Supper
-David
-
-
-1501
-1495
-1495
-1501
+`['Michelangelo','Leonardo da Vinci','Leonardo da Vinci','Michelangelo'],['David','Last Supper','Last Supper','David'],[1501,1495,1495,1501]`
 
 ### Example Output 2:
 
@@ -71,7 +56,7 @@ David
 
 ### Example Input 3:
 
-`['Salvador Dalí','Johannes Vermeer','Johannes Vermeer','Jackson Pollock'],['The Persistence of Memory,' Girl with a Pearl Earring', 'Girl with a Pearl Earring','Number 1, 1950 (Lavender Mist)'],[1931,1665,1665,1950]'
+`['Salvador Dalí','Johannes Vermeer','Johannes Vermeer','Jackson Pollock'],['The Persistence of Memory,' Girl with a Pearl Earring', 'Girl with a Pearl Earring','Number 1, 1950 (Lavender Mist)'],[1931,1665,1665,1950]`
 
 ### Example Output 3:
 
