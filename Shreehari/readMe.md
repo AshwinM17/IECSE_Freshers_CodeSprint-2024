@@ -22,8 +22,10 @@ The output should return the string that contains the largest number possible.<b
 # Sample:
 ## Example 1:
 Input:
-``n = 2
-nums=[10,2]``
+```
+n = 2
+nums=[10,2]
+```
 
 Output:
 ``"210"``
@@ -31,8 +33,10 @@ Output:
 ## Example 2:
 
 Input: 
-``n=5 ``<br>
-``nums = [3,30,34,5,9]``
+```
+n=5 <br>
+nums = [3,30,34,5,9]
+```
 
 Output:``"9534330"``
  
