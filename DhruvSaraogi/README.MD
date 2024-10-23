@@ -37,6 +37,10 @@ Night Watch
 1893
 1642
 
+### Example Output 3:
+
+`'The Scream','The Scream'`
+
 Example Input 2:
 
 
@@ -49,23 +53,25 @@ Michelangelo
 David
 Last Supper
 Last Supper
-The School of Athens
-Years:
+David
+
 
 1501
 1495
-1498
-1509
+1495
+1501
+
+### Example Output 2:
+
+`'Last Supper','Last Supper','David','David'`
 
 ### Example Input 3:
 
-['Salvador Dalí','Johannes Vermeer','Johannes Vermeer','Jackson Pollock']['The Persistence of Memory,' Girl with a Pearl Earring', 'Girl with a Pearl Earring','Number 1, 1950 (Lavender Mist)']
+`['Salvador Dalí','Johannes Vermeer','Johannes Vermeer','Jackson Pollock'],['The Persistence of Memory,' Girl with a Pearl Earring', 'Girl with a Pearl Earring','Number 1, 1950 (Lavender Mist)'],[1931,1665,1665,1950]'
 
+### Example Output 3:
 
-1931
-1665
-1665
-1950
+`'Girl with a Pearl Earring','Girl with a Pearl Earring'`
 
 ## Constraints:
 
