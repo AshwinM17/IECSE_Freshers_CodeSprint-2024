@@ -13,3 +13,18 @@ int main() {
     printf("%d\n", teleportationCount);
     return 0;
 }
+//or
+// #include <stdio.h>
+// #include <math.h>
+
+// int countTeleportations(int totalScrolls, int targetScroll) {
+//     return pow(2,totalScrolls-targetScroll);
+// }
+
+// int main() {
+//     int totalScrolls, targetScroll;
+//     scanf("%d %d", &totalScrolls, &targetScroll);
+//     int teleportationCount = countTeleportations(totalScrolls, targetScroll);
+//     printf("%d\n", teleportationCount);
+//     return 0;
+// }
