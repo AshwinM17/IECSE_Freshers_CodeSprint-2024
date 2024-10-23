@@ -39,20 +39,22 @@ int main() {
     int k=0;
     int l=0;
 
-    
+    printf("\nEnter details for record \n");
     for (int i = 0; i < num; i++) {
-        printf("\nEnter details for record %d\n", i + 1);
-        
-        printf("Artist: ");
-        scanf("%s", &arr[i]);  
-        
-        printf("\nTitle: ");
-        scanf("%s", &t[i]);  
-        
-        printf("\nYear: ");
+        printf("Artist %d :",i+1);
+        scanf("%s", &arr[i]); 
+    }
+    printf("\n");
+    for (int i = 0; i < num; i++) {
+        printf("Title %d: ",i+1);
+        scanf("%s", &t[i]); 
+    }
+    printf("\n");
+    for (int i = 0; i < num; i++) {
+         printf("Year %d: ",i+1);
         scanf("%d", &y[i]);  
     }
-
+    
     char r[num][TL];  
     
     findDuplicates(arr, t, y, num, r,k);
