@@ -27,3 +27,5 @@ n = 2
 s = 1
 Sample Output:
 Explanation: The scroll 1 will be moved to the sealing room from scroll storage room. Then the scroll 2 would be moved to the secret vault from the storage room. Then the scroll 1 would be moved to the secret vault from the sealing room. Thus, scroll 1 teleported 2 times.
+
+Link: https://www.hackerrank.com/contests/lpdwarka2016/challenges/shift-plates
