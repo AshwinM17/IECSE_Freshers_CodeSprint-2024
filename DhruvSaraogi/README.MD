@@ -8,41 +8,72 @@ As the museum's detective, your task is to find these duplicate pieces using onl
 
 # YOUR GOAL
 
-- Return an array of size two containing the titles or descriptions of the duplicate pieces, based solely on the information available in the records. 
+- Return an array containing the titles or descriptions of the duplicate pieces, based solely on the information available in the records. 
 - These pieces, likely due to errors in acquisition or labeling, are identical and should not be part of the museum's collection.
 
 ## Input Format:
-3 1D Array of Strings 
+3 1D Array of Strings of name of artist,title of their painting and year they painted. Remember all three have to match for it to be considered as a duplicate.
 
 ## Output Format:
-A single 1D array of strings
+A single 1D array of strings of the duplicated titles
 
-### Example Input 1:
+Example Input 1:
+Artists:
 
-` [["Leonardo da Vinci", "Mona Lisa", 1503], ["Vincent van Gogh", "Starry Night", 1889],["Vincent van Gogh", "Starry Night", 1889],["Edvard Munch", "The Scream", 1893]] `
+Pablo Picasso
+Edvard Munch
+Edvard Munch
+Rembrandt van Rijn
+Titles:
 
-### Example Output 1:
+Guernica
+The Scream
+The Scream
+Night Watch
+Years:
 
-`["Starry Night", "Starry Night"]`
+1937
+1893
+1893
+1642
+Example Input 2:
+Artists:
 
+Michelangelo
+Leonardo da Vinci
+Leonardo da Vinci
+Raphael
+Titles:
 
-- In this example, the two "Starry Night" pieces are identical based on the artist, title, and year. Therefore, they are considered duplicates.
+David
+Last Supper
+Last Supper
+The School of Athens
+Years:
 
-### Example Input 2:
+1501
+1495
+1498
+1509
+Example Input 3:
+Artists:
 
-`[["Michelangelo", "David", 1501],["Leonardo da Vinci", "Last Supper", 1495],["Leonardo da Vinci", "Last Supper", 1498],["Raphael", "The School of Athens", 1509]]`
+Salvador Dalí
+Johannes Vermeer
+Johannes Vermeer
+Jackson Pollock
+Titles:
 
-### Example Output 2:
+The Persistence of Memory
+Girl with a Pearl Earring
+Girl with a Pearl Earring
+Number 1, 1950 (Lavender Mist)
+Years:
 
-`["Last Supper", "Last Supper"]`
-
-### Example Input 3:
-
-`[["Salvador Dalí", "The Persistence of Memory", 1931],["Johannes Vermeer", "Girl with a Pearl Earring", 1665],["Johannes Vermeer", "Girl with a Pearl Earring", 1665],["Jackson Pollock", "Number 1, 1950 (Lavender Mist)", 1950]]`
-
-### Example Output 3:
-
-`["Girl with a Pearl Earring", "Girl with a Pearl Earring"]`
+1931
+1665
+1665
+1950
 
 ## Constraints:
 
