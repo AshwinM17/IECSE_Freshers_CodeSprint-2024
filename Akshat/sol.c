@@ -9,7 +9,6 @@ int countTeleportations(int totalScrolls, int targetScroll) {
 }
 
 int main() {
-    int totalScrolls, targetScroll;
     int teleportationCount = countTeleportations(2, 1);
     printf("%d\n", teleportationCount);
     return 0;
