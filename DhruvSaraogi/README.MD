@@ -12,7 +12,7 @@ As the museum's detective, your task is to find these duplicate pieces using onl
 - These pieces, likely due to errors in acquisition or labeling, are identical and should not be part of the museum's collection.
 
 ## Input Format:
-2D Array of Strings 
+3 1D Array of Strings 
 
 ## Output Format:
 A single 1D array of strings
