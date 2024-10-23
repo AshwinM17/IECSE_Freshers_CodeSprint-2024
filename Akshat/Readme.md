@@ -23,6 +23,7 @@ Return the total number of times the scroll of jutsu level s is teleported durin
 
 Constraints:
 1 <= n <= 10^4
+
 1 <= s <= n
 
 Sample Input:
