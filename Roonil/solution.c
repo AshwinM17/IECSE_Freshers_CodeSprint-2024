@@ -87,10 +87,10 @@ int main()
 {
       char str[MAX];
     char key;
-    printf("Enter the mail: ");
+    //printf("Enter the mail: ");
     fgets(str,sizeof(str),stdin);
     str[strcspn(str, "\n")] = '\0';
-    printf("Enter the key: ");
+    //printf("Enter the key: ");
     scanf("%c",&key);
     printf("%s",deciphered(str,key));
     return EXIT_SUCCESS;
