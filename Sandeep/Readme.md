@@ -4,7 +4,7 @@ In the Star Wars galaxy, young Jedi are required to complete a rigorous trial to
 At each step `i`, a Jedi can use their connection to the Force to:
 
 Leap forward by `i+1` steps using the Force Push technique, or
-Dash ahead by `i-1` steps using the Force Dash technique (if it’s a valid move).
+Dash ahead by `i+2` steps using the Force Dash technique (if it’s a valid move).
 The Jedi who reaches the top of the staircase in the least number of moves will be crowned the Master of the Force. However, not all paths are viable, and it’s possible that a Jedi might not be able to reach the top at all.
 
 Your task is to determine the minimum number of moves required for a Jedi to reach the top of the staircase (i.e., step n), starting from step 1. If it’s not possible to reach step n, return `-1`.
