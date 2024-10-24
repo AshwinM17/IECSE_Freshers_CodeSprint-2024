@@ -18,7 +18,7 @@ You are required to track how many times a specific scroll, identified by its ju
 
 Input Format:
 n: An integer representing the total number of scrolls, where scroll 1 contains the weakest jutsu and scroll n contains the most dangerous jutsu.
-s: An integer representing the jutsu level of the scroll you wish to monitor (1 ≤ s ≤ n).
+s: An integer representing the jutsu level of the scroll you wish to monitor.
 Output Format:
 Return the total number of times the scroll of jutsu level s is teleported during the entire operation.
 
