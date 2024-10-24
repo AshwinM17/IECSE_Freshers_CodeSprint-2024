@@ -19,7 +19,7 @@ As the museum's detective, your task is to find these duplicate pieces using onl
 ## Input Format:
 -------
 - First line is the number of creations present
-- In the second line there are 3 1D Array of Strings of name of artist,title of their painting and year they were created. 
+- In the second line there are 3 1D Array of name of artist(String),title of their painting(String) and year they were created(int). 
 - Remember all three have to match for it to be considered as a duplicate.
 
 ## Output Format:
