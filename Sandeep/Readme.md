@@ -32,8 +32,8 @@ n=5
 
 - Starting from step 1:
 - Use Force Push from step 1 to step 2.
-- Use Force Push from step 2 to step 4.
-- Use Force Dash from step 4 to step 5.
+- Use Force Dash from step 2 to step 4.
+- Use Force Push from step 4 to step 5.
 
 ### Link:
 https://leetcode.com/problems/climbing-stairs/description/
