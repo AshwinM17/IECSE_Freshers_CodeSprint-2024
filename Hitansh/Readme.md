@@ -11,11 +11,11 @@ Given an array of buildings, find the "key points" where the height of the skyli
 Note: Two successive coordinates should not have the same x OR y values.
 
 Example Input:
-5
-2 9 10
-3 7 15
-5 12 12
-15 20 10
+5  
+2 9 10  
+3 7 15  
+5 12 12  
+15 20 10  
 19 24 8
 
 Example Output:
