@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <vector>
 #include <string>
@@ -41,7 +42,8 @@ int main() {
     }
 
     string result = largestNumber(nums);
-    cout << "Largest number: " << result << endl;
+    //cout << "Largest number: ";
+    cout << result << endl;
 
     return 0;
 }
