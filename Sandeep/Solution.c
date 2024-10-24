@@ -1,66 +1,58 @@
 #include <stdio.h>
 #include <limits.h> 
+#include <stdbool.h>
 
-#define MAX_N 45 
-
-int minMovesHelper(int step, int n, int memo[]) {
-    if (step == n) {
-        return 0;
+int minMovesHelper(int current, int n, int memo[]) {
+    if (current == n) {
+        return 0; 
     }
 
-    if (step > n) {
+    if (current < 1 || current > n) {
         return INT_MAX; 
-    } 
-
-    if (memo[step] != -1) {
-        return memo[step];
     }
 
-    int moveForward = INT_MAX;
-    if (step + (step + 1) <= n) {
-        moveForward = minMovesHelper(step + (step + 1), n, memo);
+    if (memo[current] != -1) {
+        return memo[current];
     }
 
-    int moveBackward = INT_MAX;
-    if (step + (step - 1) <= n && step - 1 > 0) {
-        moveBackward = minMovesHelper(step + (step - 1), n, memo);
-    }
- 
-    int result = INT_MAX;
-    if (moveForward != INT_MAX || moveBackward != INT_MAX) {
-        result = 1 + (moveForward < moveBackward ? moveForward : moveBackward);
-    }
+    int moveForward = minMovesHelper(current + 1, n, memo); 
+    int jumpTwoSteps = minMovesHelper(current + 2, n, memo); 
 
-    memo[step] = result;
-    
+    int result = 1 + (moveForward < jumpTwoSteps ? moveForward : jumpTwoSteps);
+
+    memo[current] = result;
+
     return result;
 }
 
-int minMovesToTop(int n) {
-    if (n == 1) return 0;  
-  
-    int memo[MAX_N + 1];
+int minMovesToReachTop(int n) {
+    // Allocate memoization array
+    int memo[n + 1]; 
     for (int i = 0; i <= n; i++) {
-        memo[i] = -1;  
+        memo[i] = -1; 
     }
-    
-    int result = minMovesHelper(1, n, memo);
 
-    return (result == INT_MAX) ? -1 : result;
+    int result = minMovesHelper(1, n, memo);
+    return result == INT_MAX ? -1 : result; 
 }
 
 int main() {
-    int n;
-    printf("Enter the number of steps: ");
-    scanf("%d", &n);
-    
-    int result = minMovesToTop(n);
-    
-    if (result == -1) {
-        printf("It's not possible to reach step %d.\n", n);
+    int n; 
+    printf("Enter the number of steps in the staircase: ");
+    scanf("%d", &n); 
+
+    if (n > 45) {
+        printf("It is impossible to reach step %d\n", n);
+    } else if (n < 1) {
+        printf("Please enter a number greater than or equal to 1.\n");
     } else {
-        printf("Minimum number of moves to reach step %d: %d\n", n, result);
+        int result = minMovesToReachTop(n);
+        if (result == -1) {
+            printf("It is impossible to reach step %d\n", n);
+        } else {
+            printf("Minimum moves to reach step %d: %d\n", n, result);
+        }
     }
-    
+
     return 0;
 }
