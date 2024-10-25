@@ -26,7 +26,6 @@ int minMovesHelper(int current, int n, int memo[]) {
 }
 
 int minMovesToReachTop(int n) {
-    // Allocate memoization array
     int memo[n + 1]; 
     for (int i = 0; i <= n; i++) {
         memo[i] = -1; 
