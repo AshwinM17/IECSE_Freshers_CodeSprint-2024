@@ -4,11 +4,11 @@
 
 void append(long arr[], int n, long subset[], int subsize, int index, long matrix[][100], int *row) {
     if (index==n){
-    	for (int i=0;i<subsize;i++){
-    		matrix[*row][i]=subset[i];
-    	}
-    	(*row)++;
-    	return;
+        for (int i=0;i<subsize;i++){
+            matrix[*row][i]=subset[i];
+        }
+        (*row)++;
+        return;
     }
     subset[subsize]=arr[index];
 
@@ -23,11 +23,15 @@ void initialise(long arr[], int n, long matrix[][100]) {
 }
 
 int main() {
-    long arr[] = {0,100,2000,3,5,4,6,0,100000,2500000,300}; 
-    int n = sizeof(arr) / sizeof(arr[0]); 
+    long arr[25];
+    int n =0;
+    scanf("%d",&n);
+    for (int i=0;i<n;i++){
+        scanf("%ld",&arr[i]);
+    }
     int product=1;
     for (int i=0;i<n;i++){
-    	product*=2;
+        product*=2;
     }
     long sum=0;
     int length=product; 
@@ -43,9 +47,9 @@ int main() {
     initialise(arr, n, matrix);
 
     for (int i=0;i<product;i++){
-    	for (int j=0;j<n;j++){
-    		sum+=matrix[i][j];
-    	}
+        for (int j=0;j<n;j++){
+            sum+=matrix[i][j];
+        }
     }
 
     printf("%ld\n",sum);
