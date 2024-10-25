@@ -41,7 +41,7 @@ int main() {
     printf("Enter the number of steps in the staircase: ");
     scanf("%d", &n); 
 
-    if (n > 45) {
+    if (n > 66) {
         printf("It is impossible to reach step %d\n", n);
     } else if (n < 1) {
         printf("Please enter a number greater than or equal to 1.\n");
