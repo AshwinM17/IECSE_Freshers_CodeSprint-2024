@@ -1,2 +1,13 @@
 4
-['Francisco Goya','Francisco Goya','Salvador Dalí','Salvador Dalí'],['The Third of May 1808','Saturn Devouring His Son','Swans Reflecting Elephants','The Persistence of Memory'],[1814,1823,1937,1931]
+Francisco_Goya
+Francisco_Goya
+Salvador_Dalí
+Salvador_Dalí
+The_Third_of_May_1808
+Saturn_Devouring_His_Son
+Swans_Reflecting_Elephants
+The_Persistence_of_Memory
+1814
+1823
+1937
+1931
