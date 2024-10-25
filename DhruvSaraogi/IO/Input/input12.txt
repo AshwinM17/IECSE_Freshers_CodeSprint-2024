@@ -1,2 +1,13 @@
 4
-['Hieronymus Bosch','Hieronymus Bosch','Vincent van Gogh','Vincent van Gogh'],['The Garden of Earthly Delights','The Garden of Earthly Delights','Wheatfield with Crows','Wheatfield with Crows'],[1505,1505,1890,1750]
+Hieronymus_Bosch
+Hieronymus_Bosch
+Vincent_van_Gogh
+Vincent_van_Gogh
+The_Garden_of_Earthly_Delights
+The_Garden_of_Earthly_Delights
+Wheatfield_with_Crows
+Wheatfield_with_Crows
+1505
+1505
+1890
+1750
