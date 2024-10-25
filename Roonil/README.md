@@ -37,7 +37,7 @@ Key: e
 ```
 Output:
 ```
-Output: roonil03@mail.com
+Output: roonil03@mail.org
 ```
 ## Example 2:
 Input:
