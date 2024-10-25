@@ -1,7 +1,7 @@
-# This is Kudva's very stupid question
+# This is Blank's very stupid question
 
 ---
-
+# Solve this question using maths
 ## Statement
 You are given an array `arr` of size `n + 1` containing numbers in the range `[1, n]`. The array contains `n + 1` integers where every number between `1` and `n` appears at least once, and one number appears **exactly twice**. Your task is to find and return the duplicated number.
 
