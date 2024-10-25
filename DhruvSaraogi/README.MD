@@ -24,7 +24,7 @@ As the museum's detective, your task is to find these duplicate pieces using onl
 
 ## Output Format:
 -----
-- A single 1D array of strings of the duplicated titles
+- number of the duplicated titles(int)
 
 ### Examples
 ---
@@ -34,11 +34,22 @@ As the museum's detective, your task is to find these duplicate pieces using onl
 Input 1:
 
 4
-['Pablo Picasso','Edvard Munch','Edvard Munch','Pablo Picasso'],['Night Watch','The Scream','The Scream','Night Watch'],[1937,1893,1893,1642]
+Pablo_Picasso
+Edvard_Munch
+Edvard_Munch
+Pablo_Picasso
+Night_Watch
+The_Scream
+The_Scream
+Night_Watch
+1937
+1893
+1893
+1642
 
 Output 1:
 
-['The Scream','The Scream']
+1
 
 ```
 **Explanation for example 1:**
