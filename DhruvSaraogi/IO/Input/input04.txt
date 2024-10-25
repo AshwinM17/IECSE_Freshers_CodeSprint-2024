@@ -1,2 +1,13 @@
 4
-['Jackson Pollock','Jackson Pollock','Henri Matisse','Henri Matisse'],['Convergence','Blue Poles','Dance','Dance'],[1952,1952,1910,1910]
+Jackson_Pollock
+Jackson_Pollock
+Henri_Matisse
+Henri_Matisse
+Convergence
+Blue_Poles
+Dance
+Dance
+1952
+1952
+1910
+1910
