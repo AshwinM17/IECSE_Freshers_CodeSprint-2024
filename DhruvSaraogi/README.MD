@@ -12,9 +12,9 @@ As the museum's detective, your task is to find these duplicate pieces using onl
 
 ------
 
-- Return an array containing the titles or descriptions of the duplicate pieces, based solely on the information available in the records. 
+- Return the number of the duplicate pieces, based solely on the information available in the records. 
 - These pieces, likely due to errors in acquisition or labeling, are identical and should not be part of the museum's collection.
-- If no duplicates are found display a message "No duplicates found."
+- If no duplicates are found display 0.
 
 ## Input Format:
 -------
@@ -62,11 +62,23 @@ Output 1:
 Input 2:
 
 4
-['Michelangelo','Leonardo da Vinci','Leonardo da Vinci','Michelangelo'],['David','Last Supper','Last Supper','David'],[1501,1495,1495,1501]
+Michelangelo
+Leonardo_da_Vinci
+Leonardo_da_Vinci
+Michelangelo
+David
+Last_Supper
+Last_Supper
+David
+1501
+1495
+1495
+1501
+
 
 Output 2:
 
-['Last Supper','Last Supper','David','David']
+2
 
 ```
 
@@ -76,11 +88,22 @@ Output 2:
 Input 3:
 
 4
-['Salvador Dalí','Johannes Vermeer','Johannes Vermeer','Jackson Pollock'],['The Persistence of Memory,' Girl with a Pearl Earring', 'Girl with a Pearl Earring','Number 1, 1950 (Lavender Mist)'],[1931,1665,1665,1950]
+Salvador_Dalí
+Johannes_Vermeer
+Johannes_Vermeer
+Jackson_Pollock
+The_Persistence_of_Memory
+Girl_with_a_Pearl_Earring
+Girl_with_a_Pearl_Earring
+Number_1,_1950_(Lavender_Mist)
+1931
+1665
+1665
+1950
 
 Output 3:
 
-['Girl with a Pearl Earring','Girl with a Pearl Earring']
+1
 
 ```
 
