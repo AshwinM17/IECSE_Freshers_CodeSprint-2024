@@ -7,7 +7,7 @@
 
 
 int Identical(char arr1[], char t1[], int y1, char arr2[], char t2[], int y2) {
-    return (strcmp(arr1, arr2) == 0 && strcmp(t1, t2) == 0 && y1 == y2);
+    return (strcmp(arr1, arr2) == 0 && strcmp(t1, t2) == 0 && (y1 == y2));
 }
 
 
@@ -28,20 +28,17 @@ int findDuplicates(char arr[][AL], char t[][TL], int y[], int size) {
 
 int main() {
     int num;
-
-    printf("Enter the number of records: ");
     scanf("%d", &num);
 
-    char arr[MR][AL];
-    char t[MR][TL];
-    int y[MR];
+    char arr[num][AL];
+    char t[num][TL];
+    int y[num];
 
     for (int i = 0; i < num; i++) {
-        scanf("%s", &arr[i]); 
+        scanf("%s", arr[i]); 
     }
     for (int i = 0; i < num; i++) {
-        
-        scanf("%s", &t[i]); 
+        scanf("%s", t[i]); 
     }
     for (int i = 0; i < num; i++) {
         scanf("%d", &y[i]);  
@@ -49,7 +46,5 @@ int main() {
     
     
     printf("%d",findDuplicates(arr, t, y, num));
-
-
     return 0;
 }
