@@ -1,4 +1,4 @@
-Problem Statement: Strategic Relocation of Jutsu Scrolls
+Problem Statement: Chakra Containment
 In the Naruto universe, young shinobi are put to the test with a challenging exercise set up by the village. The training grounds feature n chakra-infused pillars, each arranged in a straight line, where each pillar stands at a certain height according to its chakra power level. These heights are given in an integer array height, where height[i] represents the height of the pillar at position i.
 
 The goal of the exercise is to select two pillars that, along with the ground, can form a two-dimensional container capable of holding the maximum possible amount of oil between them. The container’s effective area depends on both the heights of the two pillars and the distance between them, forming a bounded region where oil can collect. The challenge is to find the pair of pillars that maximize this area, making them the optimal choice for holding oil.
