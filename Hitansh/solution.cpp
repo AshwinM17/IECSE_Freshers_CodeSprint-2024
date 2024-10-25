@@ -41,9 +41,9 @@ vector<vector<int>> getSkyline(vector<vector<int>>& buildings) {
 
 
 void printSkyline(const vector<vector<int>>& skyline) {
-    cout << "Skyline points: ";
-    for(const auto& point : skyline) {
-        cout << "[" << point[0] << "," << point[1] << "] ";
+    for(size_t i = 0; i < skyline.size(); i++) {
+        cout << skyline[i][0] << " " << skyline[i][1];
+        if(i < skyline.size() - 1) cout << " ";
     }
     cout << endl;
 }
