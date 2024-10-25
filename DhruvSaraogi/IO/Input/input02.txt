@@ -1,2 +1,14 @@
 4
-['Andy Warhol','Andy Warhol','Pablo Picasso','Pablo Picasso'],['Marilyn Diptych','Marilyn Diptych','Les Demoiselles d'Avignon','Guernica'],[1962,1962,1907,1937]
+Andy_Warhol
+Andy_Warhol
+Pablo_Picasso
+Pablo_Picasso
+Marilyn_Diptych
+Marilyn_Diptych
+Les_Demoiselles_d'Avignon
+Guernica
+1962
+1962
+1907
+1937
+
