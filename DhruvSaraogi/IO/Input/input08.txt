@@ -1,2 +1,13 @@
 4
-['Edvard Munch','Edvard Munch','Gustav Klimt','Gustav Klimt'],['Madonna','Madonna','Portrait of Adele Bloch-Bauer I','Portrait of Adele Bloch-Bauer I'],[1894,1894,1907,1907]
+Edvard_Munch
+Edvard_Munch
+Gustav_Klimt
+Gustav_Klimt
+Madonna
+Madonna
+Portrait_of_Adele_Bloch-Bauer_I
+Portrait_of_Adele_Bloch-Bauer_I
+1894
+1894
+1907
+1907
