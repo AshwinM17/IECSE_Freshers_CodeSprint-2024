@@ -13,8 +13,8 @@ Output Format:
 area
 
 Constraints:
-2 <= size_of_the_array <= 105
-0 <= heightArray[i] <= 104
+2 <= size_of_the_array <= 10^5
+0 <= heightArray[i] <= 10^4
 
 Sample Input:
 5
