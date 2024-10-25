@@ -1,2 +1,13 @@
 4
-['Henri Matisse','Henri Matisse','Paul Gauguin','Paul Gauguin'],['The Snail','The Dance','Vision After the Sermon','The Yellow Christ'],[1953,1910,1888,1889]
+Henri_Matisse
+Henri_Matisse
+Paul_Gauguin
+Paul_Gauguin
+The_Snail
+The_Dance
+Vision_After_the_Sermon
+The_Yellow_Christ
+1953
+1910
+1888
+1889
