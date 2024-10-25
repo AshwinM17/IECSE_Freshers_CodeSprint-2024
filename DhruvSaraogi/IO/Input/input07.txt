@@ -1,2 +1,13 @@
 4
-['Pieter Bruegel the Elder','Caravaggio','Pieter Bruegel the Elder','Caravaggio'],['The Hunters in the Snow','Judith Beheading Holofernes','The Hunters in the Snow','Judith Beheading Holofernes'],[1565,1599,1565,1599]
+Pieter_Bruegel_the_Elder
+Caravaggio
+Pieter_Bruegel_the_Elder
+Caravaggio
+The_Hunters_in_the_Snow
+Judith_Beheading_Holofernes
+The_Hunters_in_the_Snow
+Judith_Beheading_Holofernes
+1565
+1599
+1565
+1599
