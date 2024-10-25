@@ -1,2 +1,13 @@
 4
-['Vincent van Gogh','Rembrandt van Rijn','Vincent van Gogh','Rembrandt van Rijn'],['Sunflowers','The Night Watch','Sunflowers','The Night Watch'],[1888,1642,1888,1642]
+Vincent_van_Gogh
+Rembrandt_van_Rijn
+Vincent_van_Gogh
+Rembrandt_van_Rijn
+Sunflowers
+The_Night_Watch
+Sunflowers
+The_Night_Watch
+1888
+1642
+1888
+1642
