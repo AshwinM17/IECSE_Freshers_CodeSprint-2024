@@ -1,2 +1,13 @@
 4
-['Pablo Picasso','Paul Gauguin','Paul Gauguin','Claude Monet'],['Les Demoiselles d\'Avignon','Where Do We Come From? What Are We? Where Are We Going?','Where Do We Come From? What Are We? Where Are We Going?','Impression, Sunrise'],[1907,1897,1897,1872]
+Pablo_Picasso
+Paul_Gauguin
+Paul_Gauguin
+Claude_Monet
+Les_Demoiselles_d\Avignon
+Where_Do_We_Come_From?_What_Are_We?_Where_Are_We_Going?
+Where_Do_We_Come_From?_What_Are_We?_Where_Are_We_Going?
+Impression,_Sunrise
+1907
+1897
+1897
+1872
