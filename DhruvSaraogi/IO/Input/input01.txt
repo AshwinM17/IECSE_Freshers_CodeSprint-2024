@@ -1,2 +1,13 @@
 4
-['Claude Monet','Paul Cézanne','Claude Monet','Paul Cézanne'],['Water Lilies','Mont Sainte-Victoire','Water Lilies','Mont Sainte-Victoire'],[1906,1902,1906,1903]
+Claude_Monet
+Paul_Cézanne
+Claude_Monet
+Paul_Cézanne
+Water_Lilies
+Mont_Sainte-Victoire
+Water_Lilies
+Mont_Sainte-Victoire
+1906
+1902
+1906
+1903
