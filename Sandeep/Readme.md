@@ -26,15 +26,22 @@ n=5
 ```
 ## Output 1:
 ```
-3
+2
 ```
 ## Explanation:
 
 - Starting from step 1:
-- Use Force Push from step 1 to step 2.
-- Use Force Dash from step 2 to step 4.
-- Use Force Push from step 4 to step 5.
+- Use Force Dash from step 1 to step 3.
+- Use Force Dash from step 3 to step 5.
 
+## Input 2:
+```
+0
+```
+## Output 2:
+```
+Please enter a number greater than or equal to 1.
+```
 ### Link:
 https://leetcode.com/problems/climbing-stairs/description/
 
